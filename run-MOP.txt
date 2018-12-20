@@ -1,0 +1,10 @@
+mkdir train-output
+mkdir train-output/model
+mkdir train-output/result
+mkdir train-output/scores
+mkdir train-output/sort
+perl train-stap.pl sample ./motif-list/sample-motif-list.txt
+mkdir test-output
+perl test-stap.pl sample ./motif-list/sample-motif-list.txt test
+mkdir result
+Rscript MOP.r sample test

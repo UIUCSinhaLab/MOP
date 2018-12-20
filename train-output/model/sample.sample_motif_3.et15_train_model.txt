@@ -1,0 +1,7 @@
+maxBindingWts=10000
+numOfInFactors=1
+inFactorIntMat=
+1
+numOfOutFactors=0
+outFactorIntMat=
+expRatios=1.000000

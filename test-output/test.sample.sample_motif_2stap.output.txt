@@ -1,0 +1,46 @@
+1) training the model 
+[BindingPar::readFreeParameterModelSource] _nInFactors=1 _nInFactors=0
+Found Init Parameter Model File
+Found Init Parameter Model File
+maxBindingWts = 148.818
+numOfInFactors=1
+inFactorIntMat=
+1
+numOfOutFactors=0
+outFactorIntMat=
+expRatios = 1.000000
+
+
+[BindingPar::readFreeParameterModelSource] _nInFactors=1 _nInFactors=0
+Found Init Parameter Model File
+Found Init Parameter Model File
+maxBindingWts = 148.818000
+numOfInFactors=1
+inFactorIntMat=
+1.000000
+numOfOutFactors=0
+outFactorIntMat=
+expRatios = 1.000000
+
+
+Start gradient_minimize
+Start simplex_minimize minimization
+Initial model 0.343985
+
+Random start 1
+Start gradient_minimize
+Start simplex_minimize minimization
+finish training 
+final model 0.343985
+Estimated values of parameters:
+maxBindingWts = 148.820192
+numOfInFactors=1
+inFactorIntMat=
+1.000000
+numOfOutFactors=0
+outFactorIntMat=
+expRatios = 1.000000
+Training performance = 0.343985
+2) testing the model 
+Testing performance = -nan
+clean

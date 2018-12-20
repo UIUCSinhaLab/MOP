@@ -1,0 +1,220 @@
+1) training the model 
+Start gradient_minimize
+Start simplex_minimize minimization
+Initial model 0.28651
+
+Random start 1
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 2
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 3
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 4
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 5
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 6
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 7
+Start gradient_minimize
+Start simplex_minimize minimization
+Find better model 0.28651
+
+Random start 8
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 9
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 10
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 11
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 12
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 13
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 14
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 15
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 16
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 17
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 18
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 19
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 20
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 21
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 22
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 23
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 24
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 25
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 26
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 27
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 28
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 29
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 30
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 31
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 32
+Start gradient_minimize
+Start simplex_minimize minimization
+Find better model 0.28651
+
+Random start 33
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 34
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 35
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 36
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 37
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 38
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 39
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 40
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 41
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 42
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 43
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 44
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 45
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 46
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 47
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 48
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 49
+Start gradient_minimize
+Start simplex_minimize minimization
+
+Random start 50
+Start gradient_minimize
+Start simplex_minimize minimization
+finish training 
+final model 0.28651
+Estimated values of parameters:
+maxBindingWts = 28.849
+numOfInFactors=1
+inFactorIntMat=
+1
+numOfOutFactors=0
+outFactorIntMat=
+expRatios = 1.000000
+Training performance = 0.286510
+2) testing the model 
+Testing performance = 0.286510
+clean

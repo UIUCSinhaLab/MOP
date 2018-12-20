@@ -1,0 +1,22 @@
+1. Find out what "nexps" (-n) does. I think it allows the input files (Sequence and chip scores) to be organized in groups, with equally
+   many peaks in each group, and each group representing a diferent TF. Dont know if it's ever been tested.
+2. Feature selection allows you to find a subset of the motifs in the motif file, for use in the STAP model (as secondary motifs). (I think)
+3. Find out what "modelOption" means. I think setting this to "1" (stepwise model) allows you to incrementally add secondary motifs
+4. coopOption: to ignore cooperativity (may be with more than 1 motif), use 0. To only allow for self-cooperativity, use co=2. Note, in this case, if two motifs in file, each will be modeled as having self-cooperativity and also having mutual (hetero) cooperativity. Thus, for testing effects of self-cooperativity, try to work with single motif model.
+5. interactionOption: when two bound TF molecules have cooperative interaction, the strength of interaction depends on distance between the bound sites on DNA. This option determines how it depends on distance. Also see distanceThr, range (for linear model), spacingEffect (for periodic, geometric), period, phi, phi0 (for periodic)
+6. Find out what these mean:   
+int fixcooperror = 0, islogscalestep=0; //## qcheng75
+these are used to fix some problem with cooperativity modeling that has to be specified using "FIX COOP PROB".
+This problem refers to the situation where we want to force cooperativity (int energy negative) or anatagonism (int energy positive), etc. 
+7. Find out what these mean: chiprescaling=0, 
+this is a simple sigmoidal transformation of ChIP scores before fitting model
+8. Find out what these mean: isFeatureStat=0, isFeatureCollectionOnly=0, 
+FeatureStat collects information about motifs such as information content etc. Not relevant.
+9. background model is set to uniform. 
+10. "-llrt" allows us to set site thresholds in a motif-specific way.
+By default, for every motif, we only consider sites whose LLR is maxLLR - energyThr (default 7)
+The "-llrt" option allows you to provide on the commandline a ";" separate list of real numbers to be used as thresholds.
+11. featureSelection considers if a secondary motif makes a difference to STAP predictions (using max binding weights). IF not, it does not use that motif as a secondary motif at all.
+12. InFactors are the factors for which we have ChIP data in input. (IF nExps > 1, we have more than 1 TF's ChIP data.)
+OutFactors are the TFs whose motifs are going to be used to predict binding.
+

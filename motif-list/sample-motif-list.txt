@@ -1,0 +1,5 @@
+sample_motif_1.wtmx
+sample_motif_2.wtmx
+sample_motif_3.wtmx
+sample_motif_4.wtmx
+sample_motif_5.wtmx
